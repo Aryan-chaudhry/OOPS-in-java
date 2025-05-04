@@ -8,6 +8,7 @@ class Animal{
 
 class Dog extends Animal{
     void info(){
+        super.info();
         System.out.println("Hi i a germen shefered Dog");
     }
 }
@@ -16,5 +17,6 @@ public class SingleLevel {
     public static void main(String[] args) {
         Dog sheru = new Dog();
         sheru.info();
+        
     }
 }
